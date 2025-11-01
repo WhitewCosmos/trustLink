@@ -1,0 +1,22 @@
+{
+  "name": "holder-wallet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.13.1",
+    "did-jwt": "^8.0.18",
+    "did-jwt-vc": "^4.0.16",
+    "did-resolver": "^4.1.0",
+    "ethers": "^6.15.0",
+    "express": "^5.1.0",
+    "key-did-resolver": "^4.0.0"
+  }
+}

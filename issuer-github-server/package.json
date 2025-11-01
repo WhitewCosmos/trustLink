@@ -1,0 +1,18 @@
+{
+  "name": "issuer-github-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "did-jwt": "^8.0.18",
+    "did-jwt-vc": "^4.0.16",
+    "ethers": "^6.15.0",
+    "express": "^5.1.0"
+  }
+}
