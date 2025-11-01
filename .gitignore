@@ -1,0 +1,24 @@
+# 1. Besu 실행 프로그램 바이너리
+# (용량이 크고, 코드가 아님)
+besu-25.10.0/
+
+# 2. 모든 노드의 생성 데이터 (DB, 캐시, 비밀 키, 로그 등)
+# (node-1/data, node-2/data 등을 포함한 폴더 전체를 무시)
+node-1/
+node-2/
+node-3/
+node-4/
+
+# 3. Node.js 의존성 폴더 (앞으로 만들 예정)
+# (npm install로 자동 설치되므로 commit X)
+node_modules/
+
+# 4. 임시 파일 및 PDF
+# (방금 발견한 '-' 파일 포함)
+toEncode.json
+*.pdf
+-
+
+# 5. OS 자동 생성 파일
+.DS_Store
+Thumbs.db
